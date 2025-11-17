@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes de Culture Générale - M. HOSCHEIT</title>
+    <!-- Chargement de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Configuration de la police Inter */
+        html { font-family: 'Inter', sans-serif; }
+        /* Style des tables spécifiques */
+        .content-table th, .content-table td {
+            padding: 8px 16px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .content-table th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+        }
+        /* Style pour les citations importantes */
+        .citation {
+            font-style: italic;
+            border-left: 4px solid #14b8a6; /* Couleur turquoise rappelant la préférence utilisateur */
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-6 md:p-10">
+
+        <!-- En-tête du Document -->
+        <header class="mb-8 border-b pb-4 border-gray-200">
+            <h1 class="text-3xl font-extrabold text-gray-800 tracking-tight">
+                Notes de Culture Générale
+            </h1>
+            <p class="text-xl text-gray-600 mt-1">Méthodologie et Sujets - Cours de M. HOSCHEIT</p>
+            <div class="text-sm text-gray-400 mt-2">
+                <p>Semestre / Année: Première Année (Pas de thème unique)</p>
+                <!-- BALISE DYNAMIQUE -->
+                <p>Date de la dernière consultation : <span id="last-updated" class="font-semibold text-gray-600"></span></p>
+            </div>
+        </header>
+
+        <!-- Section I: L'Essai - Cadre et Méthodologie -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-700 mb-4 border-b-2 border-teal-500 pb-1" id="section-i">
+                I. Thème: L'Essai - Cadre et Méthodologie
+            </h2>
+
+            <!-- Sous-section 0: Cadre de l'Épreuve -->
+            <h3 class="text-xl font-semibold text-teal-700 mt-6 mb-3">
+                0. Cadre de l'Épreuve (Important)
+            </h3>
+            <ul class="list-disc list-inside space-y-1 text-gray-700 ml-4">
+                <li><strong>Durée Totale de l'épreuve :</strong> 3 heures.</li>
+                <li><strong>Répartition du Temps :</strong>
+                    <ul class="list-circle list-inside ml-6">
+                        <li>Questions : 1h30 (trois questions).</li>
+                        <li>Essai : 1h30 (une seule dissertation, notée sur 10 points).</li>
+                    </ul>
+                </li>
+                <li><strong>Nature:</strong> Il s'agit d'une <strong>écriture argumentative et réflexive</strong> permettant le développement d'une opinion personnelle étayée.</li>
+            </ul>
+
+            <!-- Sous-section 1: Gestion du Temps -->
+            <h3 class="text-xl font-semibold text-teal-700 mt-6 mb-3">
+                1. Gestion du Temps et Priorité (L'Allocation des 90 Minutes)
+            </h3>
+            <div class="overflow-x-auto rounded-lg shadow-md">
+                <table class="w-full content-table text-sm text-gray-700">
+                    <thead class="text-xs uppercase bg-teal-50">
+                        <tr>
+                            <th>Étape Clé (Le "Brouillon")</th>
+                            <th>Durée Recommandée</th>
+                            <th>Objectif Principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>A. Analyse du Sujet & Définition</strong></td>
+                            <td>10 min</td>
+                            <td>Définir les termes, identifier la problématique, faire l'inventaire des références.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>B. Construction du Plan Détaillé</strong></td>
+                            <td>20 min</td>
+                            <td>Structurer précisément l'Introduction, les 3 grandes parties (I, II, III) et la Conclusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>C. Rédaction au Propre</strong></td>
+                            <td>55 min</td>
+                            <td>Rédiger l'essai sans s'arrêter (Introduction, 3 Développements, Conclusion).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>D. Relecture / Correction</strong></td>
+                            <td>5 min</td>
+                            <td>Vérifier la syntaxe, l'orthographe, et la cohérence des transitions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Sous-section 2: Concepts Clés de l'Introduction -->
+            <h3 class="text-xl font-semibold text-teal-700 mt-6 mb-3">
+                2. Concepts Clés de l'Introduction
+            </h3>
+            <ul class="list-decimal list-inside space-y-1 text-gray-700 ml-4">
+                <li><strong>Accroche (Amorce):</strong> L'élément initial visant à capter l'attention du lecteur.</li>
+                <li><strong>Présentation du Sujet:</strong> Définition précise des termes clés et délimitation du champ d'étude.</li>
+                <li><strong>Problématique:</strong> La question centrale, claire et unique, à laquelle l'essai va répondre.</li>
+                <li><strong>Annonce du Plan:</strong> La présentation structurée des 3 grandes parties de la démonstration.</li>
+            </ul>
+
+            <!-- Sous-section 3: Le Développement -->
+            <h3 class="text-xl font-semibold text-teal-700 mt-6 mb-3">
+                3. Le Développement : Construire l'Argumentation
+            </h3>
+            <p class="text-gray-700 mb-4">
+                <strong>Objectif :</strong> Chaque grande partie (I, II, III) doit faire avancer votre réponse à la problématique. Chaque partie contient généralement 2 à 3 paragraphes argumentatifs (ou "sous-parties").
+            </p>
+
+            <h4 class="text-lg font-medium text-teal-600 mt-4 mb-2">
+                A. La Structure d'un Paragraphe Argumentatif (C.E.R.)
+            </h4>
+            <p class="text-gray-700 mb-2">Chaque paragraphe doit obéir à une séquence logique en 3 étapes (Concept - Explication - Référence) :</p>
+            <div class="overflow-x-auto rounded-lg shadow-md">
+                <table class="w-full content-table text-sm text-gray-700">
+                    <thead class="text-xs uppercase bg-teal-50">
+                        <tr>
+                            <th>Étape</th>
+                            <th>Nom</th>
+                            <th>Objectif</th>
+                            <th>Explication</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>1.</strong></td>
+                            <td><strong>Idée Principale (Concept)</strong></td>
+                            <td>Affirmer l'argument.</td>
+                            <td>Annoncer clairement l'idée défendue dans ce paragraphe (c'est la réponse partielle au sujet).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2.</strong></td>
+                            <td><strong>Explication & Justification</strong></td>
+                            <td>Développer l'argument.</td>
+                            <td>Expliquer pourquoi cette idée est pertinente et juste. On utilise ici le raisonnement personnel (l'avis), la nuance, et les liens logiques.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>3.</strong></td>
+                            <td><strong>Référence & Preuve (Exemple)</strong></td>
+                            <td><strong>DÉMONTRER l'argument.</strong></td>
+                            <td>Citer une référence (auteur, œuvre, fait) qui <strong>valide</strong> ou <strong>illustre</strong> l'idée. <strong>C'est la preuve culturelle de votre opinion.</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-sm text-red-600 mt-2 font-medium">
+                <strong>Principe de Démonstration :</strong> La Référence ne doit jamais servir d'idée de départ, elle doit servir de <em>preuve</em> de votre idée. L'argumentation est le moteur, la référence est le carburant.
+            </p>
+
+            <h4 class="text-lg font-medium text-teal-600 mt-6 mb-2">
+                B. Les Transitions
+            </h4>
+            <p class="text-gray-700 mb-2">
+                <strong>Rôle :</strong> Relier chaque grande partie (I vers II, et II vers III) par une phrase qui récapitule ce qui a été dit et annonce la nuance ou le prolongement à venir.
+            </p>
+            <p class="citation">
+                <strong>Exemple (Transition de I vers II, sur l'essai "Est-on soi-même...") :</strong> <em>Si nous avons vu que les réseaux sociaux incitent à une mise en scène artificielle du soi (I), il serait cependant réducteur de les limiter à un simple espace de performance. Il convient dès lors de se demander si, paradoxalement, ils ne peuvent pas offrir à certains individus un espace d'émancipation et de construction identitaire (II).</em>
+            </p>
+
+            <h4 class="text-lg font-medium text-teal-600 mt-6 mb-2">
+                C. Qu'est-ce qu'une "Référence Culturelle" ? (La Règle d'Or)
+            </h4>
+            <p class="text-gray-700 mb-2 font-bold text-red-700">
+                En Première Année : L'essai se repose sur une <strong>Culture Générale étendue</strong> et les thèmes étudiés en cours (comme les Réseaux Sociaux).
+            </p>
+            <p class="text-gray-700 mb-2">
+                <strong>Validité Temporelle des Références :</strong> Privilégiez les œuvres classiques et fondatrices (Philosophie, Littérature ancienne) aux références trop récentes (moins de 5-10 ans). Une œuvre comme <em>Les Misérables</em> (Victor Hugo) possède une portée universelle et intemporelle, essentielle à la Culture Générale. Les références trop contemporaines manquent souvent de recul critique.
+            </p>
+            <p class="text-gray-700 mb-2">
+                Ce sont les sources qui apportent du poids à votre démonstration :
+            </p>
+            <ul class="list-disc list-inside space-y-1 text-gray-700 ml-4">
+                <li class="font-bold text-teal-800">Le Livret de cours : Les auteurs, les concepts et les extraits étudiés sont la priorité absolue, même en l'absence de thème unique.</li>
+                <li><strong>Philosophie :</strong> Auteurs (Platon, Kant, Sartre, etc.), concepts (Liberté, Identité, Vérité, etc.).</li>
+                <li><strong>Littérature / Arts :</strong> Romans, poésie, cinéma, peinture, musique qui illustrent l'idée.</li>
+                <li><strong>Histoire / Science Politique :</strong> Événements, théories (ex: la Révolution Française, les théories de la démocratie).</li>
+                <li><strong>Sciences Humaines :</strong> Sociologues (Bourdieu, Giddens), économistes, psychologues.</li>
+                <li><strong>Mythes / Fables :</strong> Références fondatrices (ex: Mythe de la caverne, Narcisse).</li>
+            </ul>
+
+            <!-- Sous-section 4: Types de Plans -->
+            <h3 class="text-xl font-semibold text-teal-700 mt-6 mb-3">
+                4. Les Types de Plans pour le Développement
+            </h3>
+            <p class="text-gray-700 mb-2">
+                <strong>Règle fondamentale :</strong> Le plan doit comporter 3 parties distinctes (I, II, III) et chaque partie doit progresser par rapport à la précédente.
+            </p>
+            <div class="overflow-x-auto rounded-lg shadow-md">
+                <table class="w-full content-table text-sm text-gray-700">
+                    <thead class="text-xs uppercase bg-teal-50">
+                        <tr>
+                            <th>Type de Plan</th>
+                            <th>Objectif</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Plan Thématique (ou Analytique)</strong></td>
+                            <td>Décomposer le sujet en trois axes d'analyse complémentaires et progressifs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Plan Dialectique (Thèse/Antithèse)</strong></td>
+                            <td>Répondre au sujet par une opposition, puis dépasser cette opposition.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Sous-section 5: Citations -->
+            <h3 class="text-xl font-semibold text-teal-700 mt-6 mb-3">
+                5. Citations et Références
+            </h3>
+            <p class="citation">
+                "Il faut avoir de l'esprit pour bien écrire l'introduction d'un livre que l'on a déjà écrit." (Blaise Pascal)
+            </p>
+        </section>
+
+        <!-- Section II: Exemple Pratique -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-700 mb-4 border-b-2 border-teal-500 pb-1" id="section-ii">
+                II. Thème: EXEMPLE - Essai Pratique
+            </h2>
+
+            <h3 class="text-xl font-semibold text-teal-700 mt-6 mb-3">
+                Sujet : "Est-on soi-même sur les réseaux sociaux ?"
+            </h3>
+
+            <h4 class="text-lg font-medium text-teal-600 mt-4 mb-2">
+                A. Introduction (Plan)
+            </h4>
+            <ul class="list-disc list-inside space-y-1 text-gray-700 ml-4">
+                <li><strong>Accroche:</strong> Le succès des <em>influenceurs</em> ou le phénomène de la <em>FOMO</em> (Fear of Missing Out).</li>
+                <li><strong>Définition:</strong> Définir le "Soi" (identité réelle, complexe) vs. la "Personna" (masque, image). Définir "Réseaux Sociaux" comme espace de médiatisation et de performance.</li>
+                <li><strong>Problématique:</strong> La question centrale, claire et unique, à laquelle l'essai va répondre.</li>
+                <li><strong>Annonce du Plan:</strong> Nous verrons dans un premier temps que l'identité en ligne est une construction destinée à la valorisation sociale (I), pour ensuite nuancer cette vision en reconnaissant la capacité des réseaux à être des espaces d'émancipation (II), afin de dépasser cette opposition par une réflexion sur le soi comme processus perpétuel (III).</li>
+            </ul>
+
+            <h4 class="text-lg font-medium text-teal-600 mt-6 mb-2">
+                B. Développement I - Paragraphe Modèle
+            </h4>
+
+            <div class="p-4 bg-gray-100 rounded-lg">
+                <p class="font-bold text-gray-800 mb-1">
+                    Argument I.1 : L'identité en ligne est avant tout une construction, un masque social.
+                </p>
+                <p class="text-gray-700 mb-2">
+                    <span class="font-semibold text-teal-700">Idée Principale (Concept) :</span> La première fonction des réseaux sociaux est d'encourager la création d'un "profil" qui, par essence, est une sélection et non une représentation intégrale de soi. L'individu y déploie non pas son être complexe, mais une identité idéalisée et optimisée, souvent à des fins de validation extérieure.
+                </p>
+                <p class="text-gray-700 mb-2">
+                    <span class="font-semibold text-teal-700">Explication & Justification :</span> En effet, la pression des "likes" et des "followers" transforme l'expression de soi en performance publique. L'utilisateur adopte une posture d'acteur, choisissant méticuleusement les facettes de son existence qui sont socialement acceptables ou désirables. Il ne s'agit plus d'être, mais de <em>paraître</em> selon des codes esthétiques et comportementaux dominants.
+                </p>
+                <p class="text-gray-700">
+                    <span class="font-semibold text-teal-700">Référence & Preuve :</span> Cette dynamique rappelle le concept de <strong>"Mise en Scène de la Vie Quotidienne"</strong> du sociologue canadien <strong>Erving Goffman</strong> (1959). Selon Goffman, toute interaction sociale est une pièce de théâtre où l'individu gère ses "impressions" pour influencer la perception qu'autrui a de lui. Les réseaux sociaux ne font qu'amplifier ce phénomène du "façade" et du "coulisse", rendant la scène permanente et le masque, quasi obligatoire.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section III: Thème Central -->
+        <section>
+            <h2 class="text-2xl font-bold text-gray-700 mb-4 border-b-2 border-teal-500 pb-1" id="section-iii">
+                III. Sujets Étudiés et Références Clés
+            </h2>
+            <p class="text-gray-700">
+                En première année, l'accent est mis sur la <strong>méthodologie</strong> (Section I) et la mobilisation d'une culture générale large autour de sujets variés (Identité, Médias, Justice, etc.). Le thème "Les Réseaux Sociaux" est un excellent sujet d'application.
+            </p>
+        </section>
+
+        <footer class="mt-10 pt-4 border-t border-gray-200 text-center text-xs text-gray-400">
+            Document généré pour le cours de Culture Générale.
+        </footer>
+
+    </div>
+
+    <!-- Script JavaScript pour la date dynamique -->
+    <script>
+        // Fonction pour formater la date en français et l'insérer
+        function updateDate() {
+            const now = new Date();
+            // Options pour un format complet en français (ex: lundi 17 novembre 2025)
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = now.toLocaleDateString('fr-FR', options);
+            const dateElement = document.getElementById('last-updated');
+
+            if (dateElement) {
+                // Mettre la première lettre en majuscule pour les jours/mois en français
+                dateElement.textContent = formattedDate.charAt(0).toUpperCase() + formattedDate.slice(1);
+            }
+        }
+
+        // Exécuter la fonction au chargement de la page
+        window.onload = updateDate;
+    </script>
+
+</body>
+</html>
